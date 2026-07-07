@@ -1,0 +1,124 @@
+/* Fonte e corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f1e8;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4b2e1e !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffd166 !important;
+}
+
+/* Banner */
+header {
+    padding: 60px 20px;
+}
+
+header img {
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    color: #4b2e1e;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Botão */
+.btn-primary {
+    background-color: #8b5e3c;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #6b4226;
+    transform: scale(1.05);
+}
+
+/* Títulos */
+section h2 {
+    color: #4b2e1e;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Galeria */
+#galeria img {
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+#galeria img:hover {
+    transform: scale(1.05);
+}
+
+/* Formulário */
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.btn-success {
+    background-color: #4b2e1e;
+    border: none;
+    border-radius: 25px;
+}
+
+.btn-success:hover {
+    background-color: #6b4226;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 50px;
+    background-color: #4b2e1e !important;
+}
+
+footer p {
+    margin: 5px;
+}
